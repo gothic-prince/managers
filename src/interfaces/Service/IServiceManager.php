@@ -1,6 +1,6 @@
 <?php
-namespace cmspp\serviceManager\interfaces;
-
+namespace cmspp\serviceManager\interfaces\Service;
+use cmspp\serviceManager\interfaces\IManager;
 
 interface IServiceManager extends IManager
 {
