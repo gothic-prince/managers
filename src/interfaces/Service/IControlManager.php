@@ -1,7 +1,7 @@
 <?php
 namespace cmspp\serviceManager\interfaces\Service;
 
-interface IServiceControl extends IService
+interface IControlManager extends IService
 {
     public function getLine(): string;
     public function getFile(): string;
