@@ -3,7 +3,7 @@ namespace cmspp\serviceManager\classes;
 use cmspp\serviceManager\interfaces\Service\IControlManager;
 use cmspp\serviceManager\interfaces\Service\IServiceManager;
 
-class ControlManager implements IControlManager
+class EmptyControlManager implements IControlManager
 {
     public function getType(): string
     {

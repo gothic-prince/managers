@@ -5,7 +5,7 @@ use cmspp\serviceManager\interfaces\Service\IService;
 use cmspp\serviceManager\interfaces\Service\IControlManager;
 use cmspp\serviceManager\interfaces\Service\IServiceManager;
 
-class ServiceManager implements IServiceManager
+class EmptyServiceManager implements IServiceManager
 {
     public function add(IServiceManager $serviceManager, IService $service, IControlManager $serviceControl): bool
     {
