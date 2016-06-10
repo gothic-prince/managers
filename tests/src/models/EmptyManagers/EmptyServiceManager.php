@@ -1,5 +1,5 @@
 <?php
-namespace cmspp\serviceManager\classes;
+namespace cmspp\serviceManager\models\EmptyManagers;
 
 use cmspp\serviceManager\interfaces\Service\IService;
 use cmspp\serviceManager\interfaces\Service\IControlManager;
