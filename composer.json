@@ -1,5 +1,5 @@
 {
-    "name": "gothic-prince/service-manager",
+    "name": "gothic-prince/managers",
     "description": "",
     "minimum-stability": "dev",
     "require": {
