@@ -1,8 +1,8 @@
 <?php
-namespace cmspp\serviceManager\models\CounterServise;
+namespace cmspp\managers\models\CounterServise;
 use cmspp\plugin\interfaces\IPlugin;
-use cmspp\serviceManager\interfaces\Service\IService;
-use cmspp\serviceManager\interfaces\Service\IServiceManager;
+use cmspp\managers\interfaces\Service\IService;
+use cmspp\managers\interfaces\Service\IServiceManager;
 
 class CounterService implements IService
 {

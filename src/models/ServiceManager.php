@@ -1,10 +1,10 @@
 <?php
-namespace cmspp\serviceManager\models;
-use cmspp\serviceManager\interfaces\Service\IControlManager;
-use cmspp\serviceManager\interfaces\Service\IService;
-use cmspp\serviceManager\interfaces\Service\IServiceManager;
+namespace cmspp\managers\models;
+use cmspp\managers\interfaces\Service\IControlManager;
+use cmspp\managers\interfaces\Service\IService;
+use cmspp\managers\interfaces\Service\IServiceManager;
 
-class SimpleServiceManager implements IServiceManager
+class ServiceManager implements IServiceManager
 {
     /**
      * @var IService[]

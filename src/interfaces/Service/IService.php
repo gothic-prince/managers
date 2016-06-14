@@ -1,5 +1,5 @@
 <?php
-namespace cmspp\serviceManager\interfaces\Service;
+namespace cmspp\managers\interfaces\Service;
 
 interface IService
 {

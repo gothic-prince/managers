@@ -1,8 +1,8 @@
 <?php
-namespace cmspp\serviceManager\interfaces;
-use cmspp\serviceManager\interfaces\Service\IService;
-use cmspp\serviceManager\interfaces\Service\IControlManager;
-use cmspp\serviceManager\interfaces\Service\IServiceManager;
+namespace cmspp\managers\interfaces;
+use cmspp\managers\interfaces\Service\IService;
+use cmspp\managers\interfaces\Service\IControlManager;
+use cmspp\managers\interfaces\Service\IServiceManager;
 
 interface IManager
 {
