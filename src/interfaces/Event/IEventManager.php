@@ -6,8 +6,8 @@ use cmspp\managers\interfaces\Service\IServiceManager;
 
 interface IEventManager
 {
-    public function add(string $toEvent, IService $currentEvent, IControlManager $serviceControl): bool;
-    public function remove(string $neededService, string $currentEvent, IControlManager $serviceControl): bool;
+    public function add(string $toEvent, IService $currentEvent): bool;
+    public function remove(string $neededService, string $currentEvent): bool;
     public function has(IServiceManager $serviceManager, string $serviceName): bool;
     public function setEventCompositeFactory(IEventCompositeFactory $eventCompositeFactory): self;
 }

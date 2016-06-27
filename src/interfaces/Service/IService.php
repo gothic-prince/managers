@@ -1,9 +1,9 @@
 <?php
 namespace cmspp\managers\interfaces\Service;
+use cmspp\events\interfaces\info\IEventInfo;
 
 interface IService
 {
-    public function getType(): string;
-    public function getName(): string;
-    public function init(IServiceManager $serviceManager);
+    public function getInfo(): IEventInfo;
+    public function init();
 }

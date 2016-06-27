@@ -20,12 +20,12 @@ class EventManager implements IEventManager
         return $this;
     }
 
-    public function add(string $toEvent, IService $currentEvent, IControlManager $serviceControl): bool
+    public function add(string $toEvent, IService $currentEvent): bool
     {
         // TODO: Implement add() method.
     }
 
-    public function remove(string $neededService, string $currentEvent, IControlManager $serviceControl): bool
+    public function remove(string $neededService, string $currentEvent): bool
     {
         // TODO: Implement remove() method.
     }
